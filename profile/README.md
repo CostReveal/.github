@@ -1,45 +1,37 @@
-# CostReveal 🛰️
+# CostReveal 🚀
 
-### The Unified Spend Platform for Modern Engineering Teams
+### The Universal Spend Observability Platform for Modern Teams
 
-CostReveal is the first observability platform designed to track EVERYTHING: Cloud Infrastructure, AI/LLM Tokens, Vector Databases, and Voice AI. We help engineering teams attribute every dollar spent directly to users and features, turning "cloud costs" into "business intelligence."
+CostReveal is the first observability platform that tracks everything: **Cloud, AI, APIs, and Users**. We help engineering teams attribute costs down to features, projects, and users in real-time — turning fragmented infrastructure bills into actionable business intelligence.
 
----
 
-## 🚀 Our Mission
+## The Value Prop
 
-Engineering teams are moving faster than ever, but financial visibility hasn't kept up. CostReveal provides the tools to:
-- **Monitor**: Real-time tracking of Cloud (AWS/GCP/Azure) and AI APIs (OpenAI/Anthropic).
-- **Analyze**: Attribute costs down to specific `customer_id` or `feature_key`.
-- **Act**: Set intelligent guardrails to stop cost spikes before they blow your budget.
+- **Cloud Services**: Full visibility into AWS, GCP, and Azure (S3, Lambda, CloudWatch, etc.).
+- **AI/LLM APIs**: Zero-touch tracking for OpenAI, Anthropic, Google AI, and Cohere.
+- **Third-Party APIs**: Monitor spending on Stripe, Twilio, SendGrid, and more.
+- **User Attribution**: Attribute every cent directly to your product features and end-users.
 
-## 🛠️ The Ecosystem
+## Get Started
 
-| Repository | Description |
-| :--- | :--- |
-| **[cr-frontend](https://github.com/CostReveal/cr-frontend)** | The unified dashboard and management interface. |
-| **[cr-backend](https://github.com/CostReveal/cr-backend)** | The high-performance core engine (FastAPI). |
-| **[cr-landing](https://github.com/CostReveal/cr-landing)** | Our marketing and public presence. |
-| **[cr-infra](https://github.com/CostReveal/cr-infra)** | Infrastructure-as-code and deployment orchestration. |
-| **[cr-docs](https://github.com/CostReveal/cr-docs)** | Technical documentation and integration guides. |
+CostReveal is built to be developer-first. The best way to explore the platform is through our technical documentation and native SDKs.
 
-### 🔌 SDKs & Integrations
-Track costs in 1 line of code with our native SDKs:
+- **[Technical Documentation](https://github.com/CostReveal/cr-docs)**: Integration guides, API references, and best practices.
+- **[Enterprise Dashboard](https://github.com/CostReveal/cr-frontend)**: Reference implementation of our FinOps interface.
+
+### Universal SDKs
+Track anything in 1 line of code:
 - **[cr-sdk-python](https://github.com/CostReveal/cr-sdk-python)**
 - **[cr-sdk-node](https://github.com/CostReveal/cr-sdk-node)**
 - **[cr-sdk-go](https://github.com/CostReveal/cr-sdk-go)**
 - *Upcoming: Java, Rust, Ruby*
 
----
-
-## 🔒 Security & Compliance
+## Security & Compliance
 
 Enterprise-grade security is at our core.
 - **Data Privacy**: We don't store your API keys; we observe the metadata.
 - **SSO/SAML**: Integrated with your enterprise identity providers.
 - **Global Compliance**: GDPR and SOC2 ready.
-
----
 
 <div align="center">
   <img src="https://costreveal.com/assets/logo-banner.png" alt="CostReveal Banner" width="100%" />
