@@ -1,13 +1,13 @@
 <div align="center">
 
-# CostReveal - Unified Spend Observability
+# CostReveal — Cost Attribution for Cloud, AI, and API
 
 CostReveal is the system of record for infrastructure cost. It answers one question with precision:
 
 **What did this feature, customer, workflow, or integration actually cost us?**
 
-[Get Started](https://costreveal.com) • 
-[Documentation](https://docs.costreveal.com) • 
+[Get Started](https://costreveal.com) •
+[Documentation](https://docs.costreveal.com) •
 [Blog](https://blog.costreveal.com)
 
 </div>
@@ -19,11 +19,11 @@ CostReveal is a developer-first platform that combines runtime application telem
 Provider dashboards show total spend.
 
 CostReveal shows:
-- which feature generated the cost  
-- which user or customer triggered it  
-- which team owns it  
+- which feature generated the cost
+- which user or customer triggered it
+- which team owns it
 
-This enables teams to reason about cost in business terms—not raw invoices.
+This enables teams to reason about cost in business terms — not raw invoices.
 
 ## Why CostReveal
 
@@ -32,16 +32,16 @@ Provider dashboards tell you what you spent.
 CostReveal tells you **why you spent it**.
 
 A single user action can trigger:
-- multiple AI model calls  
-- multiple API requests  
-- multiple infrastructure operations  
+- multiple AI model calls
+- multiple API requests
+- multiple infrastructure operations
 
 Each one adds cost.
 
 CostReveal connects all of them back to:
-- the feature  
-- the user  
-- the team  
+- the feature
+- the service
+- the user
 
 So you can understand cost as part of your product — not just your bill.
 
@@ -49,10 +49,10 @@ So you can understand cost as part of your product — not just your bill.
 
 Teams adopt CostReveal to:
 
-- Attribute AI, cloud, and API spend to features, users, projects, or customers  
-- Detect cost regressions before month-end through budgets and alerts  
-- Connect cost and revenue signals to understand unit economics  
-- Give engineering, finance, and product teams a shared view of cost behavior  
+- Attribute AI, cloud, and API spend to features, services, and users
+- Detect cost regressions before month-end through budgets and alerts
+- Connect cost and revenue signals to understand unit economics
+- Give engineering, finance, and product teams a shared view of cost behavior
 
 ## How CostReveal Works
 
@@ -62,9 +62,9 @@ CostReveal operates across two data paths.
 
 SDKs capture runtime events from your application and send structured usage data.
 
-- Supported SDKs: Python, Node.js, Go, Java  
-- Common fields: `feature`, `userId`, `tenantId`, `action`, `metadata`  
-- Enables feature-level and user-level attribution  
+- Supported SDKs: Python, Node.js, Go, Java
+- Common fields: `feature`, `userId`, `tenantId`, `action`, `metadata`
+- Enables feature-level and user-level attribution
 
 ### 2. Native Integrations
 
@@ -86,51 +86,54 @@ CostReveal connects directly to infrastructure and SaaS systems for cost and ope
 
 ### Cost Attribution
 Understand cost by:
-- feature  
-- user  
-- customer  
-- team  
-- project  
+- feature
+- service
+- user
+- customer
+- team
+- project
 
 Move beyond provider-level billing into product-level visibility.
 
 ### Cost Optimization
-- Identify cost regressions early  
-- detect inefficient workflows  
-- evaluate model and service usage  
-- surface savings opportunities  
+- Identify cost regressions early
+- Detect inefficient workflows
+- Evaluate model and service usage
+- Surface savings opportunities
 
 ### Cost Intelligence
-- Real-time anomaly detection  
-- budget tracking and alerts  
-- cost trends and insights  
+- Real-time anomaly detection
+- Budget tracking and alerts
+- Cost trends and insights
 
 ### Governance & Control
-- API keys and access control  
-- audit logs and activity tracking  
-- SSO / SAML for enterprise environments  
+- API keys and access control
+- Audit logs and activity tracking
+- SSO / SAML for enterprise environments
 
 ### Unit Economics
-- cost per user  
-- cost per feature  
-- cost vs revenue (via Stripe integration)  
-- feature-level profitability insights  
+- Cost per user
+- Cost per feature
+- Cost vs revenue (via Stripe integration)
+- Feature-level profitability insights
 
-## What You’ll See
+## What You'll See
 
 After integration, CostReveal shows:
 
-- Cost per feature (e.g. “Search → $4,200/month”)  
-- Cost per user or customer  
-- AI model cost breakdown (input/output tokens)  
-- API cost attribution (Stripe, Twilio, etc.)  
-- Real-time anomalies and budget alerts  
+- Cost per feature (e.g. "Search → $4,200/month")
+- Cost per user or customer
+- AI model cost breakdown (input/output tokens)
+- API cost attribution (Stripe, Twilio, etc.)
+- Real-time anomalies and budget alerts
 
 This is where teams move from:
-"our bill increased"
+
+> "our bill increased"
 
 to:
-"this feature caused it"
+
+> "this feature caused it"
 
 ## Getting Started
 
@@ -174,9 +177,9 @@ Review:
 
 Use CostReveal in:
 
-- engineering reviews
-- budgeting workflows
-- cost optimization decisions
+- Engineering reviews
+- Budgeting workflows
+- Cost optimization decisions
 
 ## What to Expect
 
@@ -193,9 +196,9 @@ CostReveal complements existing systems.
 
 It does not:
 
-- replace AWS, Azure, GCP, or Stripe billing systems
-- require request payload or PII capture
-- sit in the request path as a hard dependency
+- Replace AWS, Azure, GCP, or Stripe billing systems
+- Require request payload or PII capture
+- Sit in the request path as a hard dependency
 
 ## Sign Up
 
@@ -205,14 +208,13 @@ You can get started in minutes.
 - No infrastructure changes required
 - First insights available shortly after integration
 
-**Create an account:**
-[https://costreveal.com](https://app.costreveal.com/signup)
+**Create an account:** [https://app.costreveal.com/signup](https://app.costreveal.com/signup)
 
 ## Documentation
 
-- **Getting Started:** [https://docs.costreveal.com](https://docs.costreveal.com/getting-started/introduction)
-- **SDKs:** [https://docs.costreveal.com](https://docs.costreveal.com/sdks/overview)
-- **Integrations:** [https://docs.costreveal.com](https://docs.costreveal.com/integrations/overview)
+- **Getting Started:** [https://docs.costreveal.com/getting-started/introduction](https://docs.costreveal.com/getting-started/introduction)
+- **SDKs:** [https://docs.costreveal.com/sdks/overview](https://docs.costreveal.com/sdks/overview)
+- **Integrations:** [https://docs.costreveal.com/integrations/overview](https://docs.costreveal.com/integrations/overview)
 
 ## Comparison
 
@@ -224,19 +226,18 @@ CostReveal complements and extends existing tools.
 | AI tracing tools | Model-level insights | No cloud or API cost visibility |
 | FinOps tools | Cost allocation dashboards | Limited real-time and AI-native tracking |
 
-CostReveal unifies all three layers into a single system.
+CostReveal unifies all three layers into a single attribution system.
 
-## Category Definition
+## Category
 
-CostReveal defines a new category: **Unified Spend Observability**
+CostReveal is the cost attribution platform for Cloud, AI, and API.
 
 A system of record for infrastructure cost across:
 
-- cloud platforms
+- Cloud platforms
 - AI systems
-- third-party APIs
+- Third-party APIs
 
 This is not a dashboard.
 
-It is an operational intelligence layer for modern software systems.
-or developers. Trusted by finance.</p>
+It is an operational intelligence layer that attributes every dollar to the exact feature, service, and user that caused it.
